@@ -48,13 +48,14 @@
 }
 
 .main-title {
-    margin-top: 10%;
+    margin-top: 3rem;
+    text-align: center;
     font-size: 30px;
     font-family: 'Satisfy', cursive;
 }
 
 .container {
-    max-width: 1140px;
+    display: flex inline;
     padding-inline: 1.5rem;
     margin: 1% auto;
 }
@@ -168,4 +169,100 @@
     margin-top: 1rem;
     padding: 1rem;
     
+}
+
+.compra-carrito {
+    text-align: center;
+    padding: 2rem;
+    
+}
+
+.prod {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.compra-final {
+    margin: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+.total {
+    text-align: center;
+    margin: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+.vaciar {
+    background-color:  rgb(202, 152, 152);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-left: 41rem;
+    border: 0;
+    padding: 1rem;
+    color: white;
+    border-radius: 5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 1;
+    border: 2px solid  rgb(202, 152, 152);
+    transition: .2s;
+
+}
+
+
+
+.formulario {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: start;
+    align-items: center;
+
+}
+
+.formulario input {
+    padding: .5rem;
+    width: 12rem;
+    border-radius: .5rem;
+    border: 2px solid rgb(202, 152, 152);
+}
+
+.comprar {
+    background-color:  rgb(202, 152, 152);
+    border: 0;
+    padding: 1rem;
+    border: 2px solid  rgb(202, 152, 152);
+    color: white;
+    border-radius: 5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.finalizar {
+    align-items: center;
+    justify-content: center;
+    background-color:  rgb(202, 152, 152);
+    border: 0;
+    padding: 1rem;
+    border: 2px solid  rgb(202, 152, 152);
+    color: white;
+    border-radius: 5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 41rem;
+    margin-bottom: 5rem;
 }

@@ -9,9 +9,9 @@ const Navbar = () => {
         <ul className="menu">
             <li><Link className="menu-link" to="/">Inicio</Link></li>
             <li><Link className="menu-link" to="/productos">Productos</Link></li>
-            <li><Link className="menu-link" to="/productos/buzos">Buzos</Link></li>
-            <li><Link  className="menu-link" to="/productos/pantalones">Pantalones</Link></li>
-            <li><Link  className="menu-link" to="/productos/remeras">Remeras</Link></li>
+            <li><Link className="menu-link" to="/productos/cuchas">Cuchas</Link></li>
+            <li><Link  className="menu-link" to="/productos/regaleria">Regaleria</Link></li>
+            <li><Link  className="menu-link" to="/productos/agendas">Agendas</Link></li>
             <li><Link  className="menu-link" to="/contacto">Contacto </Link></li>
             <li><CartWidget /></li>
 
